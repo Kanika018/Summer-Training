@@ -1,0 +1,24 @@
+
+
+Question 1:- Show files and folders of different folders other than desktop as default on monitors?
+solutions-  {open \home\adhoc.config ~ > gedit user-dirs.dirs ~ > swap Desktop with Downloads ~ > Restart}
+question 2:- Study Concept of Recycle Bin -- how it works ?
+solutions- Recycle bin is a folder or directory which keeps the metadata, where deleted items are temporarily stored.
+                    deleted files are not permanently deleted form hard drive but are sent to recycle bin. unless they are too large.
+question 3:- why 3 to 13 dates are missing from september 1752 calendar?
+solutions- Six and a half million Britons went to bed on September 2, 1752, and woke up on September 14.To get 
+the calendar back in sync with astronomical events like the vernal equinox or the winter solstice, a number 
+of days were dropped the vernal equinox or the winter solstice, a number of days were dropped.
+question 4:- Create 100 folders and delete them in Windows?
+solutions- with python code..
+                     import os
+                    for i in range(1,100):
+                        os.mkdir('folder'+str(i))
+                   print ("100 folder are created")
+question 5:-Find the part of RAM where how much byte of data is actually stored or provided to a variable
+ can be checked?
+solutions- It can be checked through system monitor in linux and task manager in windows.
+question 6:- First time run Command should always give some error?
+question 7:- Make different copies of a >5MB file in a directory using only 5MB storage?
+question 8:- Make 500 variables and check change in size of RAM then replace variable's value with 'None' and  
+re-check the RAM?
