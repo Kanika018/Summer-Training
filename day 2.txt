@@ -16,10 +16,10 @@ ENCRYPTION- it means that the send transfer the original information to another 
 question 5:- Install VLC player on windows using Python?
 solutions- filename.exe /L=1033 /S  This will install your software without opening any GUI or such  https://wiki.videolan.org/Documentation:Installing_VLC/
 question 6:- Find various use-cases or tuple?
-solutions- Tuples are used to group together related data, such as a person’s name, their age, and their gender.
+solutions- Tuples are used to group together related data, such as a personâ€™s name, their age, and their gender.
 -immutable objects can allow substantial optimization
 -Tuples can potentially be used as keys
 -Tuples can be used to store longitude and latitude coordinates.
-question 7:-Study/Read about Vulture and Firefly?
-
+question 7:- Study/Read about Vulture and Firefly?
+solutions-  
  
