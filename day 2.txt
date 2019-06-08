@@ -1,0 +1,25 @@
+Question 1:- Find the date and time of a command from history list as to when it was used?
+solutions- export HISTTIMEFORMAT="%d %m %y %T" and save in .bashrc for permanent.
+question 2:- Change/Update history manually at path(/home/adhoc/.bash_history) and show in terminal 
+without logout/reboot?
+solutions- update history then close the terminal , reopening the terminal then update history,updated history will be seen or use source. 
+question 3:- What does 2> mean?
+solutions- 2> inserts commands output in a file only if the command entered in incorrect else it displays the output and saves nothing in file.
+question 4:- Read/Explore OSI Model 6?
+solutions- presentation layer is the 6th layer of  OSI model. It can concerned with thesyntax and sementies of the information exchanged between the two system.
+it is responsible for - translation
+                                    - campression
+                                    - encrytion
+TRANSLATION- the processes in 2 system are usually exchanging information in the form of character,string etc.
+CAMPRESSION- data campression reduce the no. of bits contained in the information.
+ENCRYPTION- it means that the send transfer the original information to another form and send  the resulting message out over the network.
+question 5:- Install VLC player on windows using Python?
+solutions- filename.exe /L=1033 /S  This will install your software without opening any GUI or such  https://wiki.videolan.org/Documentation:Installing_VLC/
+question 6:- Find various use-cases or tuple?
+solutions- Tuples are used to group together related data, such as a person’s name, their age, and their gender.
+-immutable objects can allow substantial optimization
+-Tuples can potentially be used as keys
+-Tuples can be used to store longitude and latitude coordinates.
+question 7:-Study/Read about Vulture and Firefly?
+
+ 
