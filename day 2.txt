@@ -21,5 +21,47 @@ solutions- Tuples are used to group together related data, such as a person’s 
 -Tuples can potentially be used as keys
 -Tuples can be used to store longitude and latitude coordinates.
 question 7:- Study/Read about Vulture and Firefly?
-solutions-  
+solutions- About vulture :
+Indeed, the binary file is a zip file that contains a directory.
+In the directory there is a binary called vulture. Consequently, you can cd into the directory and starts vulture from there
+by the command ./vulture.
+In short, I'll assume you run on ubuntu just open a terminal and type...
+$ cd Download
+$ tar -xvzf vulture_1.2.1-vulture_linux_amd64.tar.gz
+$ cd vulture_1.2.1-vulture_linux_amd64
+$ ./vulture
+Note - that it is important that you starts vulture from where the binary is because the html/css/js files to create the we
+interface are in the static directory next to it.
+Solution How to install firefly ?
+Install firefly from source using:
+pip install firefly-python              How to use?          Create a simple python function.
+# fib.py
+def fib(n):
+	if n == 0 or n == 1:
+		return 1
+	else:
+		return fib(n-1) + fib(n-2) 
+And run it using firefly.
+$ firefly fib.fib
+http://127.0.0.1:8000/
+...
+That started the fib function as a service listening at http://127.0.0.1:8000/.
+
+Let us see how to use it with a client.
+
+>>> import firefly
+>>> client = firefly.Client("http://127.0.0.1:8000/")
+>>> client.fib(n=10)
+89
+The service can also be invoked by sending a POST request.
+
+$ curl -d '{"n": 10}' http://127.0.0.1:8000/fib
+89
+Documentation:
+http://firefly-python.readthedocs.io/
+
+Features Planned
+1.Auto reload
+2.Supporting other input and output content-types in addition to json. (for example, a function to resize an image)
+serverless deployment.
  
