@@ -1,0 +1,10 @@
+question 1:- create a file that contains number of email ids,send a common email message to all emails and verify the email address as well?
+solution- 
+question 2:- find number of devices connected from your hotspot using python?
+solution- 
+question 3:- WAP to list number of users present in linux based OS?
+solution-
+question 4:- take 10 commands randomly from a user and check if it is present then run it other wise give voice based error message?
+solution- 
+question 5:- make  tree directory architecture and provide different permissions?
+solution- 
