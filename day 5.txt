@@ -1,0 +1,10 @@
+question 1:- Write code in python to connect to SSH without putty?
+solution- 
+question 2:- List how many people are in a group find that list?
+solution- grep 'group-name-here' /etc/group
+                grep -i --colour 'group-name-here' /etc/group.
+ 
+question 3:- How to remove read and write permission from a file or directory for root or admin user?
+solution- 
+question 4:- How to add multiple users in a group at once?
+solution- 
