@@ -1,4 +1,4 @@
-
+Solution 1-
   Use this command in bash :--->  #yum-config-manager --disable tel
   
   This will permanently disable the 'tel' repo which contains the url for telnet package.
